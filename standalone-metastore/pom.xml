@@ -377,6 +377,12 @@
         <version>${postgres.version}</version>
         <scope>test</scope>
       </dependency>
+
+      <dependency>
+         <groupId>org.apache.hadoop</groupId>
+         <artifactId>hadoop-azure</artifactId>
+         <version>3.0.0</version>
+      </dependency>
       <!-- https://mvnrepository.com/artifact/org.hamcrest/hamcrest-all -->
       <dependency>
         <groupId>org.hamcrest</groupId>
